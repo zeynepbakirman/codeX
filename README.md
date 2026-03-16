@@ -19,7 +19,7 @@ Uygulamanın tüm özelliklerinin (Müşteri ve Mühendis senaryoları) gösteri
 
 ## 📦 İndirilebilir APK Dosyası
 Uygulamayı Android cihazınızda doğrudan kurup test etmek için aşağıdaki linkten APK dosyasını indirebilirsiniz:
-👉 **[CodeCraft.apk Dosyasını İndir](./codeX.apk)** *(Alternatif Expo Direkt İndirme Linki: [Buraya Tıklayın](https://expo.dev/artifacts/eas/89zeuDcGPRmwZVT79cWb52.apk))*
+👉 **[codeX.apk Dosyasını İndir](./codeX.apk)** *(Alternatif Expo Direkt İndirme Linki: [Buraya Tıklayın](https://expo.dev/artifacts/eas/89zeuDcGPRmwZVT79cWb52.apk))*
 
 ---
 
@@ -27,21 +27,6 @@ Uygulamayı Android cihazınızda doğrudan kurup test etmek için aşağıdaki 
 Projeyi kendi bilgisayarınızda çalıştırıp kodları incelemek isterseniz aşağıdaki adımları sırasıyla takip edebilirsiniz:
 
 **1. Projeyi Bilgisayarınıza Klonlayın:**
-\`\`\`bash
-git clone https://github.com/zeynepbakirman/codeX.git
-cd CodeCraft
-\`\`\`
-*(Not: Yukarıdaki linki kendi GitHub repo linkinizle değiştirmeyi unutmayın.)*
-
-**2. Gerekli Kütüphaneleri Kurun:**
-\`\`\`bash
-npm install
-\`\`\`
-
-**3. Uygulamayı Başlatın:**
-\`\`\`bash
-npx expo start -c
-\`\`\`
-
-**4. Test Edin:**
-Terminalde açılan QR kodu telefonunuzdaki **Expo Go** uygulaması ile okutarak (veya Android Studio Emulator kullanarak) projeyi canlı olarak test edebilirsiniz.
+```bash
+git clone [https://github.com/zeynepbakirman/codeX.git](https://github.com/zeynepbakirman/codeX.git)
+cd codeX
