@@ -25,44 +25,27 @@ Uygulamayı Android cihazınızda doğrudan kurup test etmek için aşağıdaki 
 
 ## 🛠️ Nasıl Çalıştırılır? (Installation & Run)
 
-Projeyi kendi bilgisayarınızda çalıştırıp kodları incelemek isterseniz aşağıdaki adımları sırasıyla takip edebilirsiniz:
-
-
+Projeyi bilgisayarınızda yerel olarak (local) çalıştırmak ve kodları incelemek için aşağıdaki adımları sırasıyla uygulayın:
 
 **1. Projeyi Bilgisayarınıza Klonlayın:**
-
-\`\`\`bash
-
+Terminali (veya Komut İstemcisini) açın ve projeyi bilgisayarınıza indirin:
+```bash
 git clone https://github.com/zeynepbakirman/codeX.git
-
-cd CodeCraft
-
-\`\`\`
-
-*(Not: Yukarıdaki linki kendi GitHub repo linkinizle değiştirmeyi unutmayın.)*
-
-
+cd codeX
+```
 
 **2. Gerekli Kütüphaneleri Kurun:**
-
-\`\`\`bash
-
+Projenin çalışması için gereken paketleri yükleyin:
+```bash
 npm install
-
-\`\`\`
-
-
+```
 
 **3. Uygulamayı Başlatın:**
-
-\`\`\`bash
-
+Expo sunucusunu (önbelleği temizleyerek) çalıştırın:
+```bash
 npx expo start -c
-
-\`\`\`
-
-
+```
 
 **4. Test Edin:**
-
-Terminalde açılan QR kodu telefonunuzdaki **Expo Go** uygulaması ile okutarak (veya Android Studio Emulator kullanarak) projeyi canlı olarak test edebilirsiniz.
+* **Fiziksel Cihazda:** Telefonunuza **Expo Go** uygulamasını (iOS/Android) indirin ve terminalde açılan QR kodu telefonunuzun kamerası ile okutun.
+* **Sanal Cihazda (Emulator):** Bilgisayarınızda Android Studio kuruluysa, terminalde `a` tuşuna basarak Android emülatöründe başlatabilirsiniz.
