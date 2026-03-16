@@ -19,7 +19,7 @@ Uygulamanın tüm özelliklerinin (Müşteri ve Mühendis senaryoları) gösteri
 
 ## 📦 İndirilebilir APK Dosyası
 Uygulamayı Android cihazınızda doğrudan kurup test etmek için aşağıdaki linkten APK dosyasını indirebilirsiniz:
-👉 **[CodeCraft.apk Dosyasını İndir](./CodeCraft.apk)** *(Alternatif Expo Direkt İndirme Linki: [Buraya Tıklayın](https://expo.dev/artifacts/eas/89zeuDcGPRmwZVT79cWb52.apk))*
+👉 **[CodeCraft.apk Dosyasını İndir](./codeX.apk)** *(Alternatif Expo Direkt İndirme Linki: [Buraya Tıklayın](https://expo.dev/artifacts/eas/89zeuDcGPRmwZVT79cWb52.apk))*
 
 ---
 
@@ -28,7 +28,7 @@ Projeyi kendi bilgisayarınızda çalıştırıp kodları incelemek isterseniz a
 
 **1. Projeyi Bilgisayarınıza Klonlayın:**
 \`\`\`bash
-git clone https://github.com/KULLANICI_ADIN/CodeCraft.git
+git clone https://github.com/zeynepbakirman/codeX.git
 cd CodeCraft
 \`\`\`
 *(Not: Yukarıdaki linki kendi GitHub repo linkinizle değiştirmeyi unutmayın.)*
