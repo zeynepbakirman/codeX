@@ -1,50 +1,47 @@
-# Welcome to your Expo app 👋
+# 🚀 codeX - Yeteneklerin Modern Pazaryeri
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+codeX, müşteri ve mühendisleri bir araya getiren, React Native ve Expo ile geliştirilmiş yeni nesil, oyunlaştırılmış bir serbest çalışma (freelance) pazaryeri uygulamasıdır. 
 
-## Get started
+## 📌 Projenin Amacı ve Oyunlaştırma Özellikleri
+Bu projenin temel amacı; yazılım mühendislerinin yeteneklerini sergileyebileceği, müşterilerin ise ihtiyaçlarına uygun mühendisleri kolayca bulup iş teklifi gönderebileceği dinamik bir ekosistem yaratmaktır. Proje, klasik bir iş bulma platformu olmaktan çıkıp **Oyunlaştırma (Gamification)** dinamikleriyle kullanıcıları motive etmeyi hedefler:
 
-1. Install dependencies
+* 🎮 **Seviye ve XP Sistemi:** Mühendisler başarıyla tamamladıkları her görev için **+50 XP** kazanır. Her 100 XP'de bir **Level (Seviye)** atlarlar.
+* 🔴 **Dinamik Statü Yönetimi:** Bir mühendis iş teklifini kabul ettiğinde durumu anında "Müsait" konumundan "Meşgul" konumuna geçer ve pazaryerindeki görünürlüğü güncellenir.
+* 🔔 **Gerçek Zamanlı Bildirim Döngüsü:** Müşteri iş gönderdiğinde, mühendis işi kabul/red ettiğinde veya işi bitirdiğinde iki tarafın da panelinde anlık statü ve bildirim güncellemeleri olur. Biten işler gururla "Tamamlandı" etiketiyle sergilenir.
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## 🎥 Proje Tanıtım Videosu
+Uygulamanın tüm özelliklerinin (Müşteri ve Mühendis senaryoları) gösterildiği tanıtım videomuza aşağıdan ulaşabilirsiniz:
+👉 **[YouTube Tanıtım Videosunu İzlemek İçin Tıklayın](https://youtu.be/VDkQgXvBVPw?si=ZdnblSsmEYSmPgIZ)**
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 📦 İndirilebilir APK Dosyası
+Uygulamayı Android cihazınızda doğrudan kurup test etmek için aşağıdaki linkten APK dosyasını indirebilirsiniz:
+👉 **[CodeCraft.apk Dosyasını İndir](./CodeCraft.apk)** *(Alternatif Expo Direkt İndirme Linki: [Buraya Tıklayın](https://expo.dev/artifacts/eas/89zeuDcGPRmwZVT79cWb52.apk))*
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🛠️ Nasıl Çalıştırılır? (Installation & Run)
+Projeyi kendi bilgisayarınızda çalıştırıp kodları incelemek isterseniz aşağıdaki adımları sırasıyla takip edebilirsiniz:
 
-## Get a fresh project
+**1. Projeyi Bilgisayarınıza Klonlayın:**
+\`\`\`bash
+git clone https://github.com/KULLANICI_ADIN/CodeCraft.git
+cd CodeCraft
+\`\`\`
+*(Not: Yukarıdaki linki kendi GitHub repo linkinizle değiştirmeyi unutmayın.)*
 
-When you're ready, run:
+**2. Gerekli Kütüphaneleri Kurun:**
+\`\`\`bash
+npm install
+\`\`\`
 
-```bash
-npm run reset-project
-```
+**3. Uygulamayı Başlatın:**
+\`\`\`bash
+npx expo start -c
+\`\`\`
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+**4. Test Edin:**
+Terminalde açılan QR kodu telefonunuzdaki **Expo Go** uygulaması ile okutarak (veya Android Studio Emulator kullanarak) projeyi canlı olarak test edebilirsiniz.
